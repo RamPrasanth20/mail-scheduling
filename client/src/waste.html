@@ -1,0 +1,131 @@
+<section id="section-1">
+
+    <div class="row" id="s-3">
+
+        <div class="col s8" id="s-4" >
+
+            <div>
+                <p id = "home-p">
+                    Get started to scale your business with us
+                </p>
+
+                <Link to="/signup">
+                    <motion.button id="start-btn"
+                    initial = {{x:'-100vw' }}
+                    animate = {{x: 0 }}
+                    transition = {{ delay: 0.5}} >
+                        Get Started
+                    </motion.button>
+                    
+                </Link>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="col s4">
+
+            <img class="responsive-img" id="image-2" src={scale} />
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</section>
+<section id="section-2">
+
+    <div class="row" id="s-1">
+        <div class="container" id="s-2">
+            <div>
+
+                <motion.h4
+                initial = {{opacity : 0 }}
+                animate = {{ opacity : 1 }}
+                transition = {{ delay: 0.2,duration:5}}
+
+                >
+                    Grow with HORIZON
+                </motion.h4>
+                <p>
+                    Our marketing platform helps brands like these build their thing and keep it growing.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</section>
+<section class="section-3">
+    <div class="row" id="s-3">
+        <div class="col s4">
+
+            <img class="responsive-img" id="image-2" src={mail} />
+        </div>
+        <div class="col s8" id="s-4" >
+            <p  id = "home-p">
+                We provide best tools for automating your emails.
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+
+    <img src={map} />
+
+
+</section>
+<section class="section-4">
+    <div class="row" id="s-3">
+       
+        <div class="col s4" id="s-4" >
+            <p  id = "home-p-2">
+                Smart work in this fast world is the most important
+            </p>
+        </div>
+        <div class="col s8">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src={mail3} /></a>
+                <a class="carousel-item" href="#two!"><img src={customer2} /></a>
+                <a class="carousel-item" href="#three!"><img src={mail2} /></a>
+                <a class="carousel-item" href="#four!"><img src={customer} /></a>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5>About Horizon</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Connect @</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Twitter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy; 2021 Horizon</div>
+    </div>
+</footer>
