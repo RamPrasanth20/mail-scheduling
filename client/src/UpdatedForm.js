@@ -78,7 +78,7 @@ export default function UpdatedForm() {
             a["time"] = time
         }
         console.log(JSON.stringify(a))
-        fetch(`http://localhost:4000/create/${id}`, {
+        fetch(`/create/${id}`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',
